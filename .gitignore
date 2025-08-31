@@ -1,0 +1,13 @@
+# Editors
+.vscode/
+.idea/
+
+# Build/obj
+*.o
+*.elf
+*.bin
+*.map
+
+# OS junk
+.DS_Store
+Thumbs.db
