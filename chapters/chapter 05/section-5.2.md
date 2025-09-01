@@ -1,12 +1,12 @@
-
 ---
 chapter: 5
-section: 5.2
-file_role: "Solutions"
-title: "Section 5.2 — Signed Number Instructions and Operations (Mazidi)"
-notes: "Two’s‑complement arithmetic on ARM. Overflow (V) for ADD occurs when adding two same‑sign operands yields a result with a different sign. For sign‑extension, SXTB/SXTH or LSL/ASR pair are handy."
-last_updated: 2025-08-31
+section: "5.2"
+file_role: Solutions
+title: Chapter 5 · Section 5.2 — Exercises (Mazidi)
+notes: Two’s‑complement arithmetic on ARM. Overflow (V) for ADD occurs when adding two same‑sign operands yields a result with a different sign. For sign‑extension, SXTB/SXTH or LSL/ASR pair are handy.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 5 · Section 5.2 — Exercises (Mazidi)
 

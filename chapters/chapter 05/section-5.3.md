@@ -1,12 +1,12 @@
-
 ---
 chapter: 5
-section: 5.3
-file_role: "Solutions"
-title: "Section 5.3 — IEEE‑754 Floating‑Point Standards (Mazidi)"
+section: "5.3"
+file_role: Solutions
+title: Chapter 5 · Section 5.3 — Exercises (Mazidi)
 notes: "Single precision: 1|8|23 (bias=127). Double precision: 1|11|52 (bias=1023). Normalized: value = (−1)^s × (1.fraction) × 2^(exp−bias)."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 5 · Section 5.3 — Exercises (Mazidi)
 

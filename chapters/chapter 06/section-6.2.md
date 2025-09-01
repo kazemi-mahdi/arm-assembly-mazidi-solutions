@@ -1,12 +1,12 @@
-
 ---
 chapter: 6
-section: 6.2
-file_role: "Solutions"
-title: "Section 6.2 — Stack and Stack Usage in ARM (Mazidi)"
+section: "6.2"
+file_role: Solutions
+title: Chapter 6 · Section 6.2 — Exercises (Mazidi)
 notes: "ARM uses R13 as the SP. Classic ARM stacks are **full‑descending** (push: pre‑decrement SP, store; pop: load, post‑increment). `BL` writes the return address to **LR (R14)** — it does **not** touch the stack unless your code saves LR."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 6 · Section 6.2 — Exercises (Mazidi)
 

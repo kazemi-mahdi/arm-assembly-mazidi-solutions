@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.10
+section: "2.10"
 file_role: "Solutions"
 title: "Section 2.10 — RISC Architecture in ARM (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.10 for RISC vs. CISC characteristics and examples."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.10 — Exercises (Mazidi)

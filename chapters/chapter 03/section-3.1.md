@@ -1,10 +1,10 @@
 ---
 chapter: 3
-section: 3.1
+section: "3.1"
 file_role: "Solutions"
 title: "Section 3.1 — Arithmetic Instructions (Mazidi)"
 notes: "See Mazidi, Ch. 3 §3.1 for ADD/ADDS/ADC and flag behavior (C,Z)."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 3 · Section 3.1 — Exercises (Mazidi)

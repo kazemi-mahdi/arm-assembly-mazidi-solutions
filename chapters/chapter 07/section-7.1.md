@@ -1,12 +1,12 @@
-
 ---
 chapter: 7
-section: 7.1
-file_role: "Solutions"
-title: "Section 7.1 — ARM Pipeline Evolution (Mazidi)"
-notes: "Classic ARM7 cores use a **3‑stage** pipeline; ARM9 moves to a **5‑stage** pipeline that separates memory and write‑back for higher throughput."
-last_updated: 2025-08-31
+section: "7.1"
+file_role: Solutions
+title: Chapter 7 · Section 7.1 — Exercises (Mazidi)
+notes: Classic ARM7 cores use a **3‑stage** pipeline; ARM9 moves to a **5‑stage** pipeline that separates memory and write‑back for higher throughput.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 7 · Section 7.1 — Exercises (Mazidi)
 

@@ -1,12 +1,12 @@
-
 ---
 chapter: 5
-section: 5.1
-file_role: "Solutions"
-title: "Section 5.1 — Signed Numbers Concept (Mazidi)"
-notes: "Two’s‑complement on 32‑bit ARM. Positive N → 0‑extended; negative −N → (invert N) + 1."
-last_updated: 2025-08-31
+section: "5.1"
+file_role: Solutions
+title: Chapter 5 · Section 5.1 — Exercises (Mazidi)
+notes: Two’s‑complement on 32‑bit ARM. Positive N → 0‑extended; negative −N → (invert N) + 1.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 5 · Section 5.1 — Exercises (Mazidi)
 

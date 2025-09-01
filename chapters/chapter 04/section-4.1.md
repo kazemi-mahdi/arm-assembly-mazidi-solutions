@@ -1,12 +1,12 @@
-
 ---
 chapter: 4
-section: 4.1
-file_role: "Solutions"
-title: "Section 4.1 — Looping and Branch Instructions (Mazidi)"
-notes: "See Mazidi, Ch. 4 §4.1 for conditional branches, PC‑relative offsets, and loop counters."
-last_updated: 2025-08-31
+section: "4.1"
+file_role: Solutions
+title: Chapter 4 · Section 4.1 — Exercises (Mazidi)
+notes: See Mazidi, Ch. 4 section 4.1.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 4 · Section 4.1 — Exercises (Mazidi)
 

@@ -1,12 +1,12 @@
-
 ---
 chapter: 3
-section: 3.2
-file_role: "Solutions"
-title: "Section 3.2 — Logic Instructions (Mazidi)"
-notes: "See Mazidi, Ch. 3 §3.2 for AND/ORR/EOR/BIC/MVN and bitwise reasoning."
-last_updated: 2025-08-31
+section: "3.2"
+file_role: Solutions
+title: Chapter 3 · Section 3.2 — Exercises (Mazidi)
+notes: AND/ORR/EOR/BIC/MVN and bitwise reasoning.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 3 · Section 3.2 — Exercises (Mazidi)
 

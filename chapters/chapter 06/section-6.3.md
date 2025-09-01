@@ -1,12 +1,12 @@
-
 ---
 chapter: 6
-section: 6.3
-file_role: "Solutions"
-title: "Section 6.3 — ARM Bit‑Addressable (Bit‑Band) Memory Region (Mazidi)"
+section: "6.3"
+file_role: Solutions
+title: Chapter 6 · Section 6.3 — Exercises (Mazidi)
 notes: "Cortex‑M bit‑banding maps each bit in two 1‑MB regions (SRAM & Peripheral) to a 32‑bit alias word. Formula: bit_word = alias_base + (byte_offset × 32) + (bit × 4). SRAM: base 0x2000_0000 → alias 0x2200_0000. Peripheral: base 0x4000_0000 → alias 0x4200_0000."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 6 · Section 6.3 — Exercises (Mazidi)
 

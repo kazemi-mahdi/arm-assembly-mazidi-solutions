@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.4
+section: "2.4"
 file_role: "Solutions"
 title: "Section 2.4 — ARM CPSR (Current Program Status Register) (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.4 for CPSR bits (N,Z,C,V), how ADDS updates flags, and examples."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.4 — Exercises (Mazidi)

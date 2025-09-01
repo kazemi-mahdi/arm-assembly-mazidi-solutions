@@ -1,12 +1,12 @@
-
 ---
 chapter: 7
-section: 7.2
-file_role: "Solutions"
-title: "Section 7.2 — Other CPU Enhancements (Mazidi)"
-notes: "Superpipeline = more (finer‑grained) pipeline stages. Superscalar = multiple execution units/issue slots. Most modern cores fetch in order, may execute out of order, and retire in order."
-last_updated: 2025-08-31
+section: "7.2"
+file_role: Solutions
+title: Chapter 7 · Section 7.2 — Exercises (Mazidi)
+notes: Superpipeline = more (finer‑grained) pipeline stages. Superscalar = multiple execution units/issue slots. Most modern cores fetch in order, may execute out of order, and retire in order.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 7 · Section 7.2 — Exercises (Mazidi)
 

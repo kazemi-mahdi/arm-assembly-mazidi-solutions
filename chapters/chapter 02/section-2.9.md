@@ -1,12 +1,12 @@
-
 ---
 chapter: 2
-section: 2.9
-file_role: "Solutions"
-title: "Section 2.9 — Some ARM Addressing Modes (Mazidi)"
-notes: "See Mazidi, Ch. 2 §2.9 for data-processing operands and single-data-transfer addressing forms."
-last_updated: 2025-08-31
+section: "2.9"
+file_role: Solutions
+title: Chapter 2 · Section 2.9 — Exercises (Mazidi)
+notes: data-processing operands and single-data-transfer addressing forms.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 2 · Section 2.9 — Exercises (Mazidi)
 

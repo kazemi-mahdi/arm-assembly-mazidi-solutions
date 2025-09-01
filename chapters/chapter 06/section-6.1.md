@@ -1,12 +1,12 @@
-
 ---
 chapter: 6
-section: 6.1
-file_role: "Solutions"
-title: "Section 6.1 — ARM Memory Map and Memory Access (Mazidi)"
-notes: "Bandwidth ≈ (data‑bus width in bytes × bus clock) ÷ cycles per transfer. Word alignment = address % 4 = 0. Little‑endian stores LSB at the lowest address."
-last_updated: 2025-08-31
+section: "6.1"
+file_role: Solutions
+title: Chapter 6 · Section 6.1 — Exercises (Mazidi)
+notes: Bandwidth ≈ (data‑bus width in bytes × bus clock) ÷ cycles per transfer. Word alignment = address % 4 = 0. Little‑endian stores LSB at the lowest address.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 6 · Section 6.1 — Exercises (Mazidi)
 

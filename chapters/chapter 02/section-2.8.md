@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.8
+section: "2.8"
 file_role: "Solutions"
 title: "Section 2.8 — The Program Counter and Program ROM Space in ARM (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.8 for reset vector/PC behavior, instruction size, and endianness."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.8 — Exercises (Mazidi)

@@ -1,12 +1,12 @@
-
 ---
 chapter: 6
-section: 6.4
-file_role: "Solutions"
-title: "Section 6.4 — Advanced Indexed Addressing Mode (Mazidi)"
+section: "6.4"
+file_role: Solutions
+title: Chapter 6 · Section 6.4 — Exercises (Mazidi)
 notes: "ARM single‑data transfers support **offset**, **pre‑indexed (!)**, and **post‑indexed** forms with register/imm offsets and optional shifts. Stack types: FD/FA/ED/EA map to DB/IB/DA/IA addressing."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 6 · Section 6.4 — Exercises (Mazidi)
 

@@ -1,12 +1,12 @@
-
 ---
 chapter: 4
-section: 4.2
-file_role: "Solutions"
-title: "Section 4.2 — Calling Subroutines with BL (Mazidi)"
-notes: "See Mazidi, Ch. 4 §4.2 for BL/BLX, link register (LR), return sequences."
-last_updated: 2025-08-31
+section: "4.2"
+file_role: Solutions
+title: Chapter 4 · Section 4.2 — Exercises (Mazidi)
+notes: See Mazidi, Ch. 4 section 4.2.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 4 · Section 4.2 — Exercises (Mazidi)
 

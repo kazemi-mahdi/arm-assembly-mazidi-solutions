@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.3
+section: "2.3"
 file_role: "Solutions"
 title: "Section 2.3 — Load and Store Instructions in ARM (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.3 for STR/STRB/LDR basics, addressing modes, and memory-mapped SRAM."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.3 — Exercises (Mazidi)

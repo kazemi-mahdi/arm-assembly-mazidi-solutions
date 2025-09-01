@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.1
+section: "2.1"
 file_role: "Solutions"
 title: "Section 2.1 — The General-Purpose Registers in ARM (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.1 for background on word size, GPRs, immediates, and 3‑operand format."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.1 — Exercises (Mazidi)

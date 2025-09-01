@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.2
+section: "2.2"
 file_role: "Solutions"
 title: "Section 2.2 — The ARM Memory Map (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.2 for memory map, ROM/RAM sizes, addressing limits."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.2 — Exercises (Mazidi)

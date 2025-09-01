@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.7
+section: "2.7"
 file_role: "Solutions"
 title: "Section 2.7 — Assembling an ARM Program (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.7 for the build pipeline (assembler → object → link → hex), source formats, and directives."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.7 — Exercises (Mazidi)

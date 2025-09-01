@@ -1,12 +1,12 @@
-
 ---
 chapter: 6
-section: 6.5
-file_role: "Solutions"
-title: "Section 6.5 — ADR, LDR, and PC‑Relative Addressing (Mazidi)"
-notes: "In ARM state, the PC seen by an instruction equals **address_of_this_instruction + 8** (prefetch). In Thumb state it’s +4. All answers below assume **ARM (A32)** unless noted."
-last_updated: 2025-08-31
+section: "6.5"
+file_role: Solutions
+title: Chapter 6 · Section 6.5 — Exercises (Mazidi)
+notes: In ARM state, the PC seen by an instruction equals **address_of_this_instruction + 8** (prefetch). In Thumb state it’s +4. All answers below assume **ARM (A32)** unless noted.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 6 · Section 6.5 — Exercises (Mazidi)
 

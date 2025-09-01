@@ -1,12 +1,12 @@
-
 ---
 chapter: 4
-section: 4.4
-file_role: "Solutions"
-title: "Section 4.4 — Conditional Execution (Mazidi)"
-notes: "See Mazidi, Ch. 4 §4.4 for the cond field and common condition suffixes."
-last_updated: 2025-08-31
+section: "4.4"
+file_role: Solutions
+title: Chapter 4 · Section 4.4 — Exercises (Mazidi)
+notes: See Mazidi, Ch. 4 section 4.4.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 4 · Section 4.4 — Exercises (Mazidi)
 

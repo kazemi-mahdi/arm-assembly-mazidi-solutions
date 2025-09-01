@@ -1,9 +1,10 @@
 ---
 chapter: 1
-section: 1.2
+section: "1.2"
 file_role: "Solutions"
 title: "Section 1.2 — The ARM Family History (Mazidi)"
 notes: "Page hints refer to the book’s Chapter 1, §1.2 (~pp. 17–20 of the PDF)."
+last_updated: 2025-09-01
 ---
 
 # Chapter 1 · Section 1.2 — Exercises (Mazidi)

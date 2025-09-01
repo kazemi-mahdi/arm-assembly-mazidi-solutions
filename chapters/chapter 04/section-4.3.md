@@ -1,10 +1,10 @@
 ---
 chapter: 4
-section: 4.3
+section: "4.3"
 file_role: "Solutions"
 title: "Section 4.3 — ARM Time Delay and Instruction Pipeline (Mazidi)"
 notes: "Assume ARM7‑style timing: most ALU ops = 1 cycle; `BNE` taken = 3 cycles, not‑taken = 1; `LDR` (literal) = 3; `NOP` = 1. See Mazidi, Ch. 4 §4.3."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 4 · Section 4.3 — Exercises (Mazidi)

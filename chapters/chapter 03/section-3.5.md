@@ -1,12 +1,12 @@
-
 ---
 chapter: 3
-section: 3.5
-file_role: "Solutions"
-title: "Section 3.5 — BCD and ASCII Conversion (Mazidi)"
-notes: "See Mazidi, Ch. 3 §3.5. ASCII '0' = 0x30. Packed BCD stores two decimal digits per byte (high nibble = tens, low nibble = ones)."
-last_updated: 2025-08-31
+section: "3.5"
+file_role: Solutions
+title: Chapter 3 · Section 3.5 — Exercises (Mazidi)
+notes: See Mazidi, Ch. 3 section 3.5.
+last_updated: 2025-09-01
 ---
+
 
 # Chapter 3 · Section 3.5 — Exercises (Mazidi)
 

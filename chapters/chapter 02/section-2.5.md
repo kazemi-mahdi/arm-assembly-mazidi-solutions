@@ -1,10 +1,10 @@
 ---
 chapter: 2
-section: 2.5
+section: "2.5"
 file_role: "Solutions"
 title: "Section 2.5 — ARM Data Format and Directives (Mazidi)"
 notes: "See Mazidi, Ch. 2 §2.5 for EQU constants, number bases, and simple data placement."
-last_updated: 2025-08-31
+last_updated: 2025-09-01
 ---
 
 # Chapter 2 · Section 2.5 — Exercises (Mazidi)

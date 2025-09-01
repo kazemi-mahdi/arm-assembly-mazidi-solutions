@@ -1,9 +1,10 @@
 ---
 chapter: 1
-section: 1.1
+section: "1.1"
 file_role: "Solutions"
 title: "Section 1.1 — Introduction to Microcontrollers (Mazidi)"
 notes: "Page hints refer to the book PDF: Chapter 1, §1.1 (~pp. 15–17 of the PDF)."
+last_updated: 2025-09-01
 ---
 
 # Chapter 1 · Section 1.1 — Exercises (Mazidi)
