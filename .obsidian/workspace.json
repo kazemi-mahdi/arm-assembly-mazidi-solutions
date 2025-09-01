@@ -171,6 +171,17 @@
   },
   "active": "9497790c76d8a032",
   "lastOpenFiles": [
+    "pdf/chapters/chapter 07/section-7.2.pdf",
+    "toPD5FF.pdf",
+    "toPD5FE.html",
+    "pdf/chapters/chapter 07/section-7.1.pdf",
+    "toPD36F.pdf",
+    "toPD36E.html",
+    "pdf/chapters/chapter 06/section-6.5.pdf",
+    "toPD0CF.pdf",
+    "toPD0CE.html",
+    "pdf/chapters/chapter 06/section-6.4.pdf",
+    "toPCD73.pdf",
     "chapters/chapter 01/section-1.2.md",
     "chapters/chapter 02/section-2.1.md",
     "chapters/chapter 02/section-2.2.md",
@@ -195,11 +206,6 @@
     "chapters/chapter 06/section-6.1.md",
     "chapters/chapter 06/section-6.2.md",
     "chapters/chapter 06/section-6.3.md",
-    "chapters/chapter 06/section-6.4.md",
-    "chapters/chapter 06/section-6.5.md",
-    "tools/fix_front_matter.py",
-    "tools/templates/fix_front_matter.py",
-    "tools/templates/tool.py",
-    "tool.py"
+    "chapters/chapter 06/section-6.4.md"
   ]
 }

@@ -1,0 +1,28 @@
+name: build-pdfs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'chapters/**/section-*.md'
+      - 'tools/md_to_pdf.py'
+      - 'docs/pdf.css'
+      - 'docs/header.tpl.html'
+      - 'docs/footer.tpl.html'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc & wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf fonts-dejavu-core
+      - name: Convert all sections to PDF
+        run: |
+          python3 tools/md_to_pdf.py --out pdf --engine wkhtmltopdf --css docs/pdf.css --project "ARM Mazidi Solutions"
+      - name: Upload PDFs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter-pdfs
+          path: pdf/
