@@ -1,0 +1,63 @@
+% latex/preamble.tex
+% XeLaTeX preamble for the book build (Pandoc -H)
+
+% -------------------- Fonts --------------------
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\setmainfont{Cambria}                 % Windows-friendly, clean
+\setsansfont{Calibri}
+\setmonofont{Consolas}[Scale=MatchLowercase,Numbers=Monospaced]
+
+% -------------------- Page & spacing --------------------
+\usepackage[a4paper,margin=22mm]{geometry} % single source of geometry (do NOT also pass -V geometry)
+\usepackage{microtype}
+\linespread{1.12}
+
+% -------------------- Links --------------------
+\usepackage[hidelinks]{hyperref}
+
+% -------------------- Lists --------------------
+% Pandoc inserts \tightlist for compact lists; define it to avoid errors.
+\usepackage{enumitem}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
+
+% -------------------- Code blocks --------------------
+\usepackage{listings}
+\usepackage{upquote}
+\lstdefinelanguage{armasm}{
+  morekeywords={adc,add,adds,adr,ands,b,bal,beq,bne,bic,bl,bx,cmp,eor,ldr,ldrb,ldrh,ldrd,
+               mov,movs,mvn,orr,rsb,subs,str,strb,strh,stm,ldm,ror,lsr,lsl,rrx,asr,svc,
+               push,pop},
+  sensitive=true
+}
+\lstset{
+  language=armasm,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  numbers=left,
+  numberstyle=\tiny,
+  stepnumber=1,
+  numbersep=6pt,
+  frame=single,
+  rulecolor=\color{black!40},
+  framerule=0.3pt,
+  breaklines=true,
+  columns=fullflexible,
+  tabsize=2,
+  keepspaces=true,
+  showstringspaces=false
+}
+
+% -------------------- Headers/footers --------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{arm-assembly-mazidi-solutions}
+\rhead{\leftmark}     % chapter title (works with report+chapter)
+\cfoot{\thepage}
+
+% -------------------- ToC depth --------------------
+\setcounter{tocdepth}{2}  % chapter + section only
+\setcounter{secnumdepth}{2}

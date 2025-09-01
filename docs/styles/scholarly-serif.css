@@ -1,0 +1,61 @@
+/* Scholarly Serif — airy reading layout, book-ish feel. */
+
+:root {
+  --text:#111; --muted:#475569; --rule:#d1d5db; --accent:#0a4fa3;
+  --bg-code:#f7f7f9; --code-border:#e5e7eb; --code-accent:#8fb4e6;
+  --zebra:#f9fafb;
+  --lh:1.44;
+  --p-bottom:0.7rem;
+  --h1-top:0.3rem; --h1-bottom:0.6rem;
+  --h2-top:1.0rem; --h2-bottom:0.55rem;
+  --h3-top:0.8rem; --h3-bottom:0.45rem;
+  --pre-pad:11px 14px;
+  --pre-font:10.2pt;
+  --table-pad:6px 9px;
+}
+
+body {
+  color: var(--text);
+  font: 11pt/var(--lh) "Georgia", Cambria, "Times New Roman", serif;
+  letter-spacing: 0.003em;
+}
+
+h1, h2, h3, h4 {
+  color:#0e2438; font-weight:700; line-height:1.22;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: .14rem;
+}
+h1 { font-size: 23pt; margin: var(--h1-top) 0 var(--h1-bottom); }
+h2 { font-size: 19pt; margin: var(--h2-top) 0 var(--h2-bottom); }
+h3 { font-size: 15pt; margin: var(--h3-top) 0 var(--h3-bottom); }
+h1 { page-break-before: always; } h1:first-of-type { page-break-before: avoid; margin-top: 0; }
+
+p { margin: 0 0 var(--p-bottom); }
+ul, ol { margin: 0.35rem 0 0.9rem 1.25rem; }
+li { margin: 0.18rem 0; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+pre, code { font-family: "Consolas", "Cascadia Mono", "DejaVu Sans Mono", "Courier New", monospace; font-size: var(--pre-font); }
+pre {
+  background: var(--bg-code); border: 1px solid var(--code-border);
+  border-left: 4px solid var(--code-accent);
+  padding: var(--pre-pad); margin: 0.7rem 0 1.0rem; overflow: auto; page-break-inside: avoid; border-radius: 3px;
+}
+div.sourceCode { margin: 0.7rem 0 1.0rem; }
+
+table { width: 100%; border-collapse: collapse; margin: 0.6rem 0 1.0rem; }
+th, td { border: 1px solid var(--rule); padding: var(--table-pad); vertical-align: top; }
+th { background: #f1f5f9; font-weight: 700; }
+tbody tr:nth-child(even) td { background: var(--zebra); }
+
+blockquote {
+  margin: 0.7rem 1.0rem; padding: 0.25rem 0.75rem;
+  border-left: 4px solid #9aa6b2; color:#374151; background:#fbfcfe;
+  font-style: italic;
+}
+
+figcaption { font-size: 9.6pt; color: var(--muted); text-align:center; margin-top: .25rem; }
+
+table, pre, blockquote, figure { page-break-inside: avoid; }

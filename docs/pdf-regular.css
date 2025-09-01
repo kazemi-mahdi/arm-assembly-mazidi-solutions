@@ -1,0 +1,42 @@
+/* Regular spacing profile (a bit more open than the tight v2) */
+@page { size: A4; margin: 16mm 15mm 12mm 15mm; }
+
+body {
+  font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.36;       /* ↑ was 1.32 */
+  color: #111;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 700; line-height: 2;
+  color: #0d2235; border-bottom: 1px solid #cfd8e3; padding-bottom: .12rem;
+}
+h1 { font-size: 22pt; margin: 0.25rem 0 0.45rem; }
+h2 { font-size: 18pt; margin: 0.9rem 0 0.45rem; }
+h3 { font-size: 14pt; margin: 0.7rem 0 0.35rem; }
+h1 { page-break-before: always; } h1:first-of-type { page-break-before: avoid; margin-top: 0; }
+
+/* Paragraphs & lists */
+p  { margin: 0 0 0.55rem; }   /* ↑ was 0.45rem */
+ul, ol { margin: 0.3rem 0 0.7rem 1.2rem; }
+li { margin: 0.16rem 0; }
+li > p { margin: 0.16rem 0; }
+
+/* Code blocks */
+pre, code { font-family: "DejaVu Sans Mono", Consolas, "Courier New", monospace; font-size: 9.8pt; } /* ↑ */
+pre {
+  background: #f6f8fa; border: 1px solid #e2e8f0; border-left: 4px solid #7aa2d6;
+  padding: 9px 11px; margin: 0.55rem 0 0.85rem; overflow: auto; page-break-inside: avoid; border-radius: 3px;
+}
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; margin: 0.5rem 0 0.9rem; }
+th, td { border: 1px solid #cbd5e1; padding: 5px 7px; vertical-align: top; }
+th { background: #f1f5f9; }
+
+/* Quote */
+blockquote { margin: 0.6rem 0.9rem; padding: 0.25rem 0.7rem; border-left: 3px solid #94a3b8; color: #374151; background: #f8fafc; }
+
+table, pre, blockquote, figure { page-break-inside: avoid; }

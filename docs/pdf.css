@@ -1,32 +1,68 @@
-/* Print-friendly style for Pandoc + wkhtmltopdf */
-@page { size: A4; margin: 20mm 18mm 15mm 18mm; }
-body { font-family: "DejaVu Serif", Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.35; color: #111; }
+/* Print style for Pandoc + wkhtmltopdf — tighter spacing v2 */
+@page { size: A4; margin: 16mm 15mm 12mm 15mm; } /* was 20/18/15/18 */
 
+html, body { height: 100%; }
+body {
+  font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.32; /* was 1.35 */
+  color: #111;
+}
+
+/* Headings: smaller gaps above/below */
 h1, h2, h3, h4 {
   font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
-  font-weight: 700; line-height: 1.2; margin-top: 1.2em;
-  color: #0d2235; border-bottom: 1px solid #cfd8e3; padding-bottom: .15rem;
+  font-weight: 700;
+  line-height: 1.18;
+  color: #0d2235;
+  border-bottom: 1px solid #cfd8e3;
+  padding-bottom: .12rem;
 }
-h1 { font-size: 22pt; } h2 { font-size: 18pt; } h3 { font-size: 14pt; }
+h1 { font-size: 22pt; margin: 0.2rem 0 0.35rem; }
+h2 { font-size: 18pt; margin: 0.8rem 0 0.35rem; }
+h3 { font-size: 14pt; margin: 0.6rem 0 0.3rem; }
+h1 { page-break-before: always; }
+h1:first-of-type { page-break-before: avoid; margin-top: 0; }
 
+/* Paragraphs & lists: pull closer together */
+p { margin: 0 0 0.45rem; }
+ul, ol { margin: 0.2rem 0 0.55rem 1.2rem; }
+li { margin: 0.12rem 0; }
+li > p { margin: 0.12rem 0; } /* no big gaps inside list items */
+
+/* Links */
 a { color: #0a4fa3; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-pre, code { font-family: "DejaVu Sans Mono", Consolas, "Courier New", monospace; font-size: 10pt; }
+/* Code blocks: slightly smaller, tighter padding */
+pre, code {
+  font-family: "DejaVu Sans Mono", Consolas, "Courier New", monospace;
+  font-size: 9.6pt; /* was 10pt */
+}
 pre {
-  background: #f6f8fa; border: 1px solid #e2e8f0; border-left: 4px solid #7aa2d6;
-  padding: 10px 12px; overflow: auto; page-break-inside: avoid; border-radius: 3px;
+  background: #f6f8fa;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #7aa2d6;
+  padding: 8px 10px; /* was 10px 12px */
+  margin: 0.45rem 0 0.7rem;
+  overflow: auto;
+  page-break-inside: avoid;
+  border-radius: 3px;
 }
 
-table { border-collapse: collapse; width: 100%; margin: .5rem 0 1rem; }
-th, td { border: 1px solid #cbd5e1; padding: 6px 8px; vertical-align: top; }
+/* Tables: tighten cell padding */
+table { border-collapse: collapse; width: 100%; margin: 0.4rem 0 0.8rem; }
+th, td { border: 1px solid #cbd5e1; padding: 4px 6px; vertical-align: top; }
 th { background: #f1f5f9; }
 
+/* Blockquotes: smaller margins/padding */
 blockquote {
-  margin: .8rem 1rem; padding: .2rem .8rem;
-  border-left: 3px solid #94a3b8; color: #374151; background: #f8fafc;
+  margin: 0.5rem 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-left: 3px solid #94a3b8;
+  color: #374151;
+  background: #f8fafc;
 }
 
-h1 { page-break-before: always; }
-h1:first-of-type { page-break-before: avoid; }
+/* Page-break behavior */
 table, pre, blockquote, figure { page-break-inside: avoid; }

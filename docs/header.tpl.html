@@ -3,18 +3,17 @@
   <head>
     <meta charset="utf-8">
     <style>
-      html,body { margin:0; padding:0; font-family: "DejaVu Sans", Arial, sans-serif; color:#334155; }
-      .bar { font-size:10pt; border-bottom:1px solid #cbd5e1; padding:4px 8px; display:flex; justify-content:space-between; align-items:center; }
-      .project { font-weight:600; }
-      .title { font-weight:500; opacity:.9; }
-      .page { font-variant-numeric: tabular-nums; }
+      body{margin:0;font:10pt/1.3 Cambria,Georgia,"Times New Roman",serif;color:#111}
+      .bar{padding:4px 8px;border-bottom:.5pt solid #bbb;}
+      .left{float:left} .right{float:right}
+      .muted{color:#333}
+      .clearfix::after{content:"";display:block;clear:both}
     </style>
   </head>
   <body>
-    <div class="bar">
-      <div class="project">{{PROJECT}}</div>
-      <div class="title">{{TITLE}}</div>
-      <div class="page">Page [page]/[toPage]</div>
+    <div class="bar clearfix">
+      <span class="left"><strong>arm-assembly-mazidi-solutions</strong></span>
+      <span class="right muted">Page [page]/[toPage]</span>
     </div>
   </body>
 </html>

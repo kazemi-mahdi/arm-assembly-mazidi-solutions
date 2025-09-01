@@ -1,0 +1,111 @@
+% Pandoc LaTeX template for ARM “book” PDF (XeLaTeX)
+\documentclass[11pt]{report}
+
+% -------------------- Encoding & Fonts --------------------
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\setmainfont{Cambria} % <- Windows-friendly
+\setsansfont{Calibri}
+\setmonofont{Consolas}[
+  Scale=MatchLowercase,
+  Ligatures=NoCommon,
+  Numbers=Monospaced
+]
+% \setmathfont{Cambria Math} % optional, if you need math
+
+% -------------------- Layout --------------------
+\usepackage[margin=25mm,headsep=8mm,footskip=12mm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{microtype}
+
+% -------------------- Sectioning --------------------
+% Make Pandoc’s top-level headings map to \chapter via CLI:
+%   --top-level-division=chapter
+\setcounter{secnumdepth}{2} % number chapters+sections (not subsections)
+\setcounter{tocdepth}{1}    % TOC depth: chapter (0) + section (1)
+
+% -------------------- Header / Footer --------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear
+\fancyhead[L]{\textit{arm-assembly-mazidi-solutions}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% -------------------- Hyperlinks --------------------
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdftitle={ARM Mazidi Solutions — All Sections},
+  pdfauthor={Contributors},
+  pdfcreator={Pandoc + XeLaTeX}
+}
+
+% -------------------- Code listings --------------------
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegray}{RGB}{240,240,240}
+\lstdefinestyle{armstyle}{
+  backgroundcolor=\color{codegray},
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=6pt,
+  frame=single,
+  rulecolor=\color{black!40},
+  framerule=0.3pt,
+  breaklines=true,
+  showstringspaces=false,
+  tabsize=4
+}
+\lstset{style=armstyle}
+% Make "asm" / "armasm" fences look good even if not language-recognized
+\lstdefinelanguage{armasm}{morekeywords={MOV,ADDS,SUBS,STR,LDR,ORR,AND,EOR,B,BL,BNE,BEQ,CMP,MVN,LSR,LSL,ROR,RRX}, sensitive=true}
+\lstalias{asm}{armasm}
+\lstalias{armasm}{armasm}
+
+% -------------------- Title page --------------------
+\newcommand{\BookTitle}[1]{%
+  \begin{center}
+    {\huge\bfseries #1\par}
+    \vspace{1.5em}
+    \rule{0.8\linewidth}{0.4pt}\par
+    \vspace{2em}
+  \end{center}
+}
+
+% -------------------- Pandoc variables hook --------------------
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$else$
+\date{} % no date
+$endif$
+
+\begin{document}
+% Visual title (not a numbered chapter; keeps TOC clean)
+$if(title)$
+\BookTitle{$title$}
+$endif$
+
+% Table of contents (short; chapters+sections only by tocdepth=1)
+$if(toc)$
+{\hypersetup{linkcolor=black}
+\tableofcontents
+\clearpage
+}
+$endif$
+
+$body$
+
+\end{document}
